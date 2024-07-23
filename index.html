@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript"
+	    src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+</head>
+<body>
+    <section id="logo">
+        <img src="ippf_logo.svg" width="130px" height="150px">
+    </section>
+    <section id="home">
+        
+        <head><b>Home</b></head>
+        <nav class="topdiv">
+            <i class="fa-solid fa-house"></i>
+            <!-- Button for the anchor tag for redirecting to its corresponding section (temperature) -->
+            <a href="#dashboard"><button class="topmenu">DASHBOARD</button></a>
+            <!-- Button for the anchor tag for redirecting to its corresponding section (weight) -->
+            <a href="#visualizations"><button class="topmenu">VISUALIZATIONS</button></a>
+            <!-- Button for the anchor tag for redirecting to its corresponding section (distance) -->
+            <a href="#insights"><button class="topmenu">INSIGHTS</button></a>
+            <a href="#donation"><button class="donatemenu">To Donate</button></a>
+        </nav>
+      </section>
+<article class="welcoming">
+    <h1 class="slide-in-text">Data Driven Decision Making</h1>
+    <p class="slide-in-text">Scroll through to see how IPPF is implementing data visualization for population management in Zambia</p>
+    <section class="introduction">
+        <div class="blur-overlay"></div>
+        <div class="bg-text">
+            <h1>Data Driven Decision Making</h1>
+            <p>Scroll through to see how IPPF is implementing data visualization for population management in Zambia</p>
+        </div>
+    </section>
+    <br><br>
+    <hr>
+</article>
+<article>
+    <section class="general-info">
+        <p>Access to population control services in Sub-Saharan Africa is a big challenge. These challenges are mainly attributed to poverty,
+            lack of or inadequate education, climatic conditions and government incapabilities. The International Planned Parenthood Federation
+            as an NGO with keen interest in the human rights has been on the forefront in ensuring that these services are availed to those in need. 
+            To excel in this, IPPF employs a wide range of mechanisms to ensure its clients are have access to population management services that they need. 
+            One of such mechanisms implemented is data visualization, which aimms to streamline the process of understanding Africa's demographic.
+            This web page presents a summary of visualizations that have aided in population management in Zambia
+        </p>
+    </section>
+</article>
+<hr>
+<br>
+<h1>Visualization Pane</h1> <br>
+<h3>Bubble... Bubbles... I have the hint!</h3>
+
+<div id="vizContainer1"></div>
+<p>To filter out a category, click on it in the visualization. Click the same category once again to bring back the other categories.</p>
+<p>Otherwise, to generate insights, click on the button of interest from the list below:</p> 
+      <button class="filter1" value="Injectable contraception" onclick="bubble1()">Injectable contraception</button>
+      <button class="filter2" value="Contraceptive pills, non-emergency">Contraceptive pills, non-emergency</button>
+      <button class="filter3" value="Implant">Implant</button>
+      <button class="filter4" value="Male condoms">Male condoms</button>
+      <button class="filter5" value="Intra-uterine system or device (IUD)">Intra-uterine system or device (IUD)</button>
+      <button class="filter6" value="Female condoms">Female condoms</button>
+      <button class="filter7" value="None">None</button> <br>
+<div>
+    <h4>You can also download the PDF to view on your local computer:</h4>
+    <button id="exportButton">Download as PDF</button>
+</div>
+
+<br><br>
+<hr>
+<div id="vizContainer3"></div>
+<div>
+    <button id="exportButton3">Download as PDF</button>
+</div>
+<br><br>
+<hr>
+<div id="vizContainer4"></div>.
+<div>
+    <button id="exportButton4">Download as PDF</button>
+</div>
+<br><br>
+<hr>
+<div id="vizContainer5"></div>
+<div>
+    <button id="exportButton5">Download as PDF</button>
+</div>
+<br><br>
+<hr>
+<div id="vizContainer6"></div>
+<div>
+    <button id="exportButton6">Download as PDF</button>
+</div>
+<br><br>
+<hr>
+<div id="vizContainer7"></div>
+<div>
+    <button id="exportButton7">Download as PDF</button>
+</div>
+<br><br>
+<hr>
+<div id="vizContainer2"></div>
+<p>Download to view the whole content:</p>
+<div>
+    <button id="exportButton2">Download as PDF</button>
+</div>
+<br><br><br>
+
+
+
+
+
+<script src="script.js"></script>
+<footer>
+        
+    <p>Find IPPF on social media:</p> <i class="fa-brands fa-x-twitter fa-3.5x"></i>
+    <i class="fa-brands fa-facebook fa-3.5x"></i>
+    <i class="fa-brands fa-square-instagram fa-3.5x"></i>
+    <i class="fa-brands fa-tiktok fa-3.5x"></i>
+    <i class="fa-brands fa-whatsapp fa-3.5x"></i>
+    <p>&copy; 2024. A sample footer.</p>
+</footer>
+</body>
+</html>
