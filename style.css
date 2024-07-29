@@ -1,7 +1,7 @@
 /* Home section  which has the app name and nav bar. The styling is applied by id */
 body{
     background-color: rgba(238, 238, 244, 0.947);
-    color: rgb(16, 15, 15); 
+    color: rgb(16, 15, 15);
     font-family: arial;
 }
 #logo{
@@ -53,6 +53,7 @@ body{
     text-decoration: none;
     border-radius: 1mm;
     font-weight: bolder;
+    
 }
 
 .topmenu:hover{
@@ -107,6 +108,7 @@ body{
     margin-top: -1cm;
     padding-top: 2cm;
     padding-bottom: 2cm;
+    color: #1d0065;
 }
 
 .tableauPlaceholder{
@@ -163,7 +165,7 @@ body{
   }
 
 footer{
-    background-color: blue;
+    background-color: #1d0065;
     color: white;
     font-family: verdana;
     text-align: center;
@@ -415,6 +417,36 @@ footer{
     font-weight: bolder;
     cursor: pointer;
 }
+
+
+
+#vizContainer1, #vizContainer3, #vizContainer4, #vizContainer5, #vizContainer6, #vizContainer7 {
+    transform: scale(0.6); /* adjust the scale level as needed */
+    transform-origin: top left;
+  }
+  #vizContainer2{
+    width: 170px;
+    
+  }
+
+  .iconbutton{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-color: #1d0065;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    cursor: pointer;
+  }
+
+
+
+
+  
 
 
 /* Keyframes for slide-in animation */

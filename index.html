@@ -6,8 +6,10 @@
     <title>Document</title>
 
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5c5fe8666e.js" crossorigin="anonymous"></script>
     <script type="text/javascript"
-	    src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
+	    src="https://public.tableau.com/javascripts/api/tableau-2.min.js">
+    </script>
 </head>
 <body>
     <section id="logo">
@@ -15,7 +17,7 @@
     </section>
     <section id="home">
         
-        <head><b>Home</b></head>
+        <head><b style="color: white;">Home</b></head>
         <nav class="topdiv">
             <i class="fa-solid fa-house"></i>
             <!-- Button for the anchor tag for redirecting to its corresponding section (temperature) -->
@@ -24,22 +26,23 @@
             <a href="#visualizations"><button class="topmenu">VISUALIZATIONS</button></a>
             <!-- Button for the anchor tag for redirecting to its corresponding section (distance) -->
             <a href="#insights"><button class="topmenu">INSIGHTS</button></a>
-            <a href="#donation"><button class="donatemenu">To Donate</button></a>
+            <a href="https://secure.ippf.org/a/donate" target="_blank" title="This link will take you to a separate website in a new tab"><button class="donatemenu">To Donate</button></a>
         </nav>
       </section>
-<article class="welcoming">
-    <h1 class="slide-in-text">Data Driven Decision Making</h1>
-    <p class="slide-in-text">Scroll through to see how IPPF is implementing data visualization for population management in Zambia</p>
-    <section class="introduction">
-        <div class="blur-overlay"></div>
-        <div class="bg-text">
-            <h1>Data Driven Decision Making</h1>
-            <p>Scroll through to see how IPPF is implementing data visualization for population management in Zambia</p>
-        </div>
-    </section>
-    <br><br>
-    <hr>
-</article>
+      <article class="welcoming">
+        <h1 class="slide-in-text">Data Driven Decision Making</h1>
+        <p class="slide-in-text">Scroll through to see how IPPF is implementing data visualization for population management in Zambia</p>
+        <section class="introduction">
+            <div class="blur-overlay">
+            </div>
+            <div class="bg-text" style="font-size: 30px;">
+                Data Driven Decision Making
+                Scroll through to see how IPPF is implementing data visualization for population management in Zambia
+            </div>
+        </section>
+        <br><br>
+        <hr>
+    </article>
 <article>
     <section class="general-info">
         <p>Access to population control services in Sub-Saharan Africa is a big challenge. These challenges are mainly attributed to poverty,
@@ -73,42 +76,57 @@
 
 <br><br>
 <hr>
-<div id="vizContainer3"></div>
-<div>
-    <button id="exportButton3">Download as PDF</button>
+<div id="visualizations">
+    <div id="vizContainer3"></div>
+    <div>
+        <button id="exportButton3">Download as PDF</button>
+    </div>
+    <br><br>
+    <hr>
+    <div id="vizContainer4"></div>
+    <div>
+        <button id="exportButton4">Download as PDF</button>
+    </div>
+    <br><br>
+    <hr>
+    <div id="vizContainer5"></div>
+    <div>
+        <button id="exportButton5">Download as PDF</button>
+    </div>
+    <br><br>
+    <hr>
+    <div id="vizContainer6"></div>
+    <div>
+        <button id="exportButton6">Download as PDF</button>
+    </div>
+    <br><br>
+    <hr>
+    <div id="vizContainer7"></div>
+    <div>
+        <button id="exportButton7">Download as PDF</button>
+    </div>
 </div>
 <br><br>
 <hr>
-<div id="vizContainer4"></div>.
-<div>
-    <button id="exportButton4">Download as PDF</button>
+<div id="dashboard">
+    <div id="vizContainer2"></div>
 </div>
-<br><br>
-<hr>
-<div id="vizContainer5"></div>
-<div>
-    <button id="exportButton5">Download as PDF</button>
-</div>
-<br><br>
-<hr>
-<div id="vizContainer6"></div>
-<div>
-    <button id="exportButton6">Download as PDF</button>
-</div>
-<br><br>
-<hr>
-<div id="vizContainer7"></div>
-<div>
-    <button id="exportButton7">Download as PDF</button>
-</div>
-<br><br>
-<hr>
-<div id="vizContainer2"></div>
-<p>Download to view the whole content:</p>
+<p>Note: You may need to download the dashboard as PDF to view on your local computer and/or share);</p>
 <div>
     <button id="exportButton2">Download as PDF</button>
 </div>
 <br><br><br>
+
+
+<div class="iconbutton">
+    
+    <a href="#home">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+      </svg>
+      <!--Add the code here for the logo to appear and the icon to be actionable-->
+    </a> 
+  </div>
 
 
 

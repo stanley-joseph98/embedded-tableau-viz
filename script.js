@@ -48,7 +48,7 @@ const url4 =
 
   const vizContainer5 = document.getElementById("vizContainer5");
 const url5 =
-  "https://public.tableau.com/views/IPPF_Dashboard/table?";
+  "https://public.tableau.com/views/IPPF_Dashboard/pie_chart?";
 
   let viz5;
 
