@@ -1,17 +1,17 @@
-/* Home section  which has the app name and nav bar. The styling is applied by id */
-body{
+/* Home section which has the app name and nav bar. The styling is applied by id */
+body {
     background-color: rgba(238, 238, 244, 0.947);
     color: rgb(16, 15, 15);
     font-family: arial;
 }
-#logo{
+
+#logo {
     float: left;
     margin-right: -0.5cm;
-    
 }
+
 #home {
     background-color: #1d0065;
-    padding-bottom: -1cm;
     margin-left: 5cm;
     margin-right: -0.5cm;
     margin-top: -1cm;
@@ -20,19 +20,18 @@ body{
     position: static;
 }
 
-.welcoming h1{
+.welcoming h1 {
     font-size: large;
 }
 
-/* Navigation Bar Container*/
-.topdiv{
-    float:right;
+/* Navigation Bar Container */
+.topdiv {
+    float: right;
     padding-right: 1cm;
-
 }
 
 /* Navigation Bar Buttons */
-.topmenu{
+.topmenu {
     color: lightgray;
     background-color: #1d0065;
     margin: 10px;
@@ -43,38 +42,34 @@ body{
     font-weight: bolder;
 }
 
-.donatemenu{
-    color: lightgray;
-    background-color: orange;
+.donatemenu {
     color: #1d0065;
+    background-color: orange;
     margin: 10px;
     padding: 10px;
     font-size: 20px;
     text-decoration: none;
     border-radius: 1mm;
     font-weight: bolder;
-    
 }
 
-.topmenu:hover{
+.topmenu:hover {
     color: white;
     font-weight: bolder;
     background-color: #149db0;
     cursor: pointer;
 }
 
-.donatemenu:hover{
-    
+.donatemenu:hover {
     font-weight: bolder;
     background-color: white;
     cursor: pointer;
 }
+
 #introduction {
-    
     background-size: cover;
     background-position: center;
     height: 50vh; /* Adjust the height as needed */
-    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,26 +77,22 @@ body{
     padding: 20px;
 }
 
-.bg-image{
+.bg-image {
     /* The image used */
     background-image: url("bar_graph.png");
-  
     /* Add the blur effect */
     filter: blur(8px);
     -webkit-filter: blur(8px);
-  
     /* Full height */
     height: 100%;
-  
     /* Center and scale the image nicely */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-  /* Position text in the middle of the page/image */
-.bg-text{
-    
+/* Position text in the middle of the page/image */
+.bg-text {
     padding-bottom: 1cm;
     margin-left: -1cm;
     margin-right: -1cm;
@@ -111,7 +102,7 @@ body{
     color: #1d0065;
 }
 
-.tableauPlaceholder{
+.tableauPlaceholder {
     height: 200px;
     width: 15cm;
 }
@@ -122,8 +113,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    filter: blur(10px); 
-  
+    filter: blur(10px);
     /* Add dimensions if necessary */
     width: 100%;
     height: 400px; /* Adjust height as needed */
@@ -133,9 +123,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .blur-overlay {
+.blur-overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -143,28 +133,25 @@ body{
     height: 100%;
     background-color: rgba(234, 221, 221, 0.247); /* Adjust opacity as needed */
     filter: blur(10px);
-  }
+}
 
-  .bg-text {
+.bg-text {
     color: rgb(6, 6, 6);
     text-align: center;
     z-index: 1; /* Ensure text is above the blur overlay */
-    filter:blur(0);
-  }
+    filter: blur(0);
+}
 
-
-
-  .general-info p{
+.general-info p {
     font-family: arial;
-  }
+}
 
-
-  #insights1{
+#insights1 {
     position: fixed;
     left: 0;
-  }
+}
 
-footer{
+footer {
     background-color: #1d0065;
     color: white;
     font-family: verdana;
@@ -173,7 +160,7 @@ footer{
     padding-top: 5%;
 }
 
-#exportButton{
+#exportButton {
     color: lightgray;
     background-color: #1d0065;
     margin: 10px;
@@ -184,14 +171,14 @@ footer{
     font-weight: bolder;
 }
 
-#exportButton:hover{
+#exportButton:hover {
     color: white;
     font-weight: bolder;
     background-color: #149db0;
     cursor: pointer;
 }
 
-#exportButton2{
+#exportButton2 {
     color: lightgray;
     background-color: #1d0065;
     margin: 10px;
@@ -202,14 +189,14 @@ footer{
     font-weight: bolder;
 }
 
-#exportButton2:hover{
+#exportButton2:hover {
     color: white;
     font-weight: bolder;
     background-color: #149db0;
     cursor: pointer;
 }
 
-#exportButton3{
+#exportButton3 {
     color: lightgray;
     background-color: #1d0065;
     margin: 10px;
@@ -220,14 +207,14 @@ footer{
     font-weight: bolder;
 }
 
-#exportButton3:hover{
+#exportButton3:hover {
     color: white;
     font-weight: bolder;
     background-color: #149db0;
     cursor: pointer;
 }
 
-#exportButton4{
+#exportButton4 {
     color: lightgray;
     background-color: #1d0065;
     margin: 10px;
@@ -238,14 +225,14 @@ footer{
     font-weight: bolder;
 }
 
-#exportButton4:hover{
+#exportButton4:hover {
     color: white;
     font-weight: bolder;
     background-color: #149db0;
     cursor: pointer;
 }
 
-#exportButton5{
+#exportButton5 {
     color: lightgray;
     background-color: #1d0065;
     margin: 10px;
@@ -256,14 +243,14 @@ footer{
     font-weight: bolder;
 }
 
-#exportButton5:hover{
+#exportButton5:hover {
     color: white;
     font-weight: bolder;
     background-color: #149db0;
     cursor: pointer;
 }
 
-#exportButton6{
+#exportButton6 {
     color: lightgray;
     background-color: #1d0065;
     margin: 10px;
@@ -274,14 +261,14 @@ footer{
     font-weight: bolder;
 }
 
-#exportButton6:hover{
+#exportButton6:hover {
     color: white;
     font-weight: bolder;
     background-color: #149db0;
     cursor: pointer;
 }
 
-#exportButton7{
+#exportButton7 {
     color: lightgray;
     background-color: #1d0065;
     margin: 10px;
@@ -292,14 +279,14 @@ footer{
     font-weight: bolder;
 }
 
-#exportButton7:hover{
+#exportButton7:hover {
     color: white;
     font-weight: bolder;
     background-color: #149db0;
     cursor: pointer;
 }
 
-.filter1{
+.filter1 {
     color: rgb(242, 241, 241);
     background-color: #005965;
     margin: 5px;
@@ -310,16 +297,16 @@ footer{
     font-weight: bolder;
 }
 
-.filter1:hover{
+.filter1:hover {
     color: rgb(8, 7, 7);
     font-weight: bolder;
     background-color: #149db0;
     cursor: pointer;
 }
 
-.filter2{
+.filter2 {
     color: rgb(242, 241, 241);
-    background-color:#176e9a;
+    background-color: #176e9a;
     margin: 5px;
     padding: 10px;
     font-size: 10px;
@@ -328,12 +315,12 @@ footer{
     font-weight: bolder;
 }
 
-.filter2:hover{
-    
+.filter2:hover {
     font-weight: bolder;
     cursor: pointer;
 }
-.filter3{
+
+.filter3 {
     color: rgb(242, 241, 241);
     background-color: rgb(196, 67, 67);
     margin: 5px;
@@ -344,13 +331,12 @@ footer{
     font-weight: bolder;
 }
 
-.filter3:hover{
-   
+.filter3:hover {
     font-weight: bolder;
-    
     cursor: pointer;
 }
-.filter4{
+
+.filter4 {
     color: rgb(242, 241, 241);
     background-color: #c7a41a;
     margin: 5px;
@@ -361,13 +347,12 @@ footer{
     font-weight: bolder;
 }
 
-.filter4:hover{
-    
+.filter4:hover {
     font-weight: bolder;
-    
     cursor: pointer;
 }
-.filter5{
+
+.filter5 {
     color: rgb(242, 241, 241);
     background-color: #0695128f;
     margin: 5px;
@@ -378,13 +363,12 @@ footer{
     font-weight: bolder;
 }
 
-.filter5:hover{
-   
+.filter5:hover {
     font-weight: bolder;
-    
     cursor: pointer;
 }
-.filter6{
+
+.filter6 {
     color: rgb(242, 241, 241);
     background-color: rgb(233, 155, 10);
     margin: 5px;
@@ -395,13 +379,13 @@ footer{
     font-weight: bolder;
 }
 
-.filter1:hover{
-    color: rgb(8, 7, 7);
+.filter6:hover {
     font-weight: bolder;
     background-color: #149db0;
     cursor: pointer;
 }
-.filter7{
+
+.filter7 {
     color: rgb(242, 241, 241);
     background-color: #654a65;
     margin: 5px;
@@ -412,24 +396,38 @@ footer{
     font-weight: bolder;
 }
 
-.filter7:hover{
+.filter7:hover {
     color: white;
     font-weight: bolder;
     cursor: pointer;
 }
 
+hr {
+    width: 50%;
+    border-top: 1px solid black;
+    margin-left: 0;
+}
 
+#vizContainer2 {
+    transform: scale(0.85);
+}
 
 #vizContainer1, #vizContainer3, #vizContainer4, #vizContainer5, #vizContainer6, #vizContainer7 {
     transform: scale(0.6); /* adjust the scale level as needed */
     transform-origin: top left;
-  }
-  #vizContainer2{
-    width: 170px;
-    
-  }
+}
 
-  .iconbutton{
+#vizContainer2 {
+    width: 170px;
+}
+
+#vizContainer3, #vizContainer5, #vizContainer7 {
+    width: 0%;
+    margin: 0 auto;
+    border-radius: 10%;
+}
+
+.iconbutton {
     width: 48px;
     height: 48px;
     border-radius: 100%;
@@ -441,13 +439,30 @@ footer{
     right: 3%;
     bottom: 3%;
     cursor: pointer;
-  }
+}
 
+.overview {
+    border: 1px solid gray;
+    display: block;
+    border-radius: 6px;
+    /*text-align: center;*/
+    margin: 0 auto;
+    padding: 10px;
+    width: 5in;
+    font-size: 20px;
+    box-shadow: 0 3px 10px rgb(128, 128, 128);
+    background-color: #1d0065;
+    color: white;
+    font-family: verdana;
+}
 
-
-
-  
-
+.general-overview {
+    background-image: url('africa-map.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    color: white; /* Ensure the text is readable */
+}
 
 /* Keyframes for slide-in animation */
 @keyframes slide-in {

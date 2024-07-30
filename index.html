@@ -20,11 +20,8 @@
         <head><b style="color: white;">Home</b></head>
         <nav class="topdiv">
             <i class="fa-solid fa-house"></i>
-            <!-- Button for the anchor tag for redirecting to its corresponding section (temperature) -->
             <a href="#dashboard"><button class="topmenu">DASHBOARD</button></a>
-            <!-- Button for the anchor tag for redirecting to its corresponding section (weight) -->
             <a href="#visualizations"><button class="topmenu">VISUALIZATIONS</button></a>
-            <!-- Button for the anchor tag for redirecting to its corresponding section (distance) -->
             <a href="#insights"><button class="topmenu">INSIGHTS</button></a>
             <a href="https://secure.ippf.org/a/donate" target="_blank" title="This link will take you to a separate website in a new tab"><button class="donatemenu">To Donate</button></a>
         </nav>
@@ -43,14 +40,14 @@
         <br><br>
         <hr>
     </article>
-<article>
+<article class="overview">
     <section class="general-info">
-        <p>Access to population control services in Sub-Saharan Africa is a big challenge. These challenges are mainly attributed to poverty,
-            lack of or inadequate education, climatic conditions and government incapabilities. The International Planned Parenthood Federation
+        <p>Access to population control services in Sub-Saharan Africa is a big challenge. <br>These challenges are mainly attributed to poverty,
+            lack of or inadequate education, climatic conditions and government incapabilities. <br>The International Planned Parenthood Federation
             as an NGO with keen interest in the human rights has been on the forefront in ensuring that these services are availed to those in need. 
-            To excel in this, IPPF employs a wide range of mechanisms to ensure its clients are have access to population management services that they need. 
-            One of such mechanisms implemented is data visualization, which aimms to streamline the process of understanding Africa's demographic.
-            This web page presents a summary of visualizations that have aided in population management in Zambia
+           <br> To excel in this, IPPF employs a wide range of mechanisms to ensure its clients are have access to population management services that they need. 
+            <br>One of such mechanisms implemented is data visualization, which aimms to streamline the process of understanding Africa's demographic.<br>
+            This web page presents a summary of visualizations that have aided in population management in Zambia.
         </p>
     </section>
 </article>
@@ -60,7 +57,7 @@
 <h3>Bubble... Bubbles... I have the hint!</h3>
 
 <div id="vizContainer1"></div>
-<p>To filter out a category, click on it in the visualization. Click the same category once again to bring back the other categories.</p>
+<!-- <p>To filter out a category, click on it in the visualization. Click the same category once again to bring back the other categories.</p>
 <p>Otherwise, to generate insights, click on the button of interest from the list below:</p> 
       <button class="filter1" value="Injectable contraception" onclick="bubble1()">Injectable contraception</button>
       <button class="filter2" value="Contraceptive pills, non-emergency">Contraceptive pills, non-emergency</button>
@@ -68,7 +65,7 @@
       <button class="filter4" value="Male condoms">Male condoms</button>
       <button class="filter5" value="Intra-uterine system or device (IUD)">Intra-uterine system or device (IUD)</button>
       <button class="filter6" value="Female condoms">Female condoms</button>
-      <button class="filter7" value="None">None</button> <br>
+      <button class="filter7" value="None">None</button> <br> -->
 <div>
     <h4>You can also download the PDF to view on your local computer:</h4>
     <button id="exportButton">Download as PDF</button>
@@ -77,37 +74,44 @@
 <br><br>
 <hr>
 <div id="visualizations">
+    <!-- family planning method bubble chart visualization -->
     <div id="vizContainer3"></div>
     <div>
         <button id="exportButton3">Download as PDF</button>
     </div>
     <br><br>
     <hr>
+    <!-- Age group Column chart visualization -->
     <div id="vizContainer4"></div>
     <div>
         <button id="exportButton4">Download as PDF</button>
     </div>
     <br><br>
     <hr>
+    <!-- Marital status column chart visualization -->
     <div id="vizContainer5"></div>
     <div>
         <button id="exportButton5">Download as PDF</button>
     </div>
     <br><br>
     <hr>
+    <!-- Gender distribution pie chart visualization -->
     <div id="vizContainer6"></div>
     <div>
         <button id="exportButton6">Download as PDF</button>
     </div>
     <br><br>
     <hr>
+    <!-- Participants' education leve treemap visualization -->
     <div id="vizContainer7"></div>
     <div>
         <button id="exportButton7">Download as PDF</button>
     </div>
 </div>
+
 <br><br>
 <hr>
+<!-- First dashboard with all the visualizations above -->
 <div id="dashboard">
     <div id="vizContainer2"></div>
 </div>
